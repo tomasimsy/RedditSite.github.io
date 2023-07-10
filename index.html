@@ -5,30 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>Investment Firm</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="dns-prefetch" href="//fonts.bunny.net">
+
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
-
+       
+        <link href="css/styles.css" rel="stylesheet" />
         <!-- AOS Style -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-dark py-4" style="font-family:'Roboto';" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase" href="#page-top">modern<br> search <br> ventures</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand text-uppercase"style="font-family: 'Crimson Text', serif;" href="#page-top">modern<br> search <br> ventures</a>
+                <button style="background-color: #9AB973;" class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
@@ -55,419 +56,293 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+  
+         <!-- Header Section-->
+        <header class="">
+                <div class="mask  d-flex justify-content-center align-items-start bg-dark" style="background-color: rgba(0, 0, 0, 0.8); height:60vh;" >
+                    <div class=" container rounded-2 p-4 " style="background-color: rgba(0, 0, 0, 0.2);" >
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-md-12">
+                                <!-- Header text content-->
+                                <div class="text-white"   data-aos="fade-right"  >
+                                    <div class="fs-3 fw-light " ><h3 style="font-family: 'Crimson Text', serif;">We invest in people with big dreams & the drive to make them come true. </h3></div>
+                                                <h1 class="fw-bolder mb-5" style="font-family: 'Crimson Text', serif;"><span class="text-gradient d-inline">We contribute capital, global networks and deep expertise.</span></h1>
+                                                <h3 class="fs-4 fw-light " style="font-family: 'Crimson Text', serif;">We help make it happen.</h3>
+                                                <div class="fs-4 fw-light " style="font-family: 'Crimson Text', serif;">Let's talk.</div>
+                                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
+                                                    <a class="btn btn-block px-5 py-3 me-sm-3 fs-6 fw-bolder " onMouseOver="this.style.background='#9AB973', this.style.color='#ffff'"
+                                                    onMouseOut="this.style.background='#0000', this.style.color='#9AB973'" style="width: 200px !important; border-radius:40px; border-color:#9AB973; color:#ffff;" href="#contact_us">Contact Us</a>
+                                                </div>
+                                </div>
+                            </div>
+                            <!-- Header Image content-->
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
-            </div>
+             
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+         <!-- About Section-->
+         <section class="bg-light py-5" id="about_us" style="font-family:'Lato', serif;">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <!-- About us and Profile Text -->
+                    <div class="col-lg-6" data-aos="fade-down">
+                        <div class="text-sm-start my-5" >
+                            <h2 class="display-5 fw-bolder color-secondary" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline"  >About Us</span></h2>
+                            <p class="lead fw-light " >We back outstanding entrepreneurs that want to find, acquire and operate small and medium-sized businesses. </p>
+                            <p class=" " style="">In addition to capital, we offer access to a global network and the strategic insights that come from a wealth of transactional 
+                                                                            and operating experience. </p>
+                            <p class="" >Finally, we are very deliberate about social responsibility. Businesses are more resilient when they are actively creating positive 
+                                                                            impact in their communities, contributing to their local 
+                                                                            economies with quality employment and managing their environmental footprint responsibly.</p>
+        
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
-                        </div>
+                    <!--About section images -->
+                    <div class="col-lg-6 " style="background-image:url('assets/img/scribble.svg');">
+        
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div>
+        
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+        
+         <!-- Team Section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <!--Our Teams -->
+                    <div class="col-lg-12 mt-4 row align-items-start justify-content-start">
+                        <div class="col-lg-6  border-bottom border-secondary border-5" data-aos="fade-down">
+                            <h3 class="fw-bolder" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline">Our Teams</span></h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class=" my-5 border-5   " data-aos="fade-down">
+                                <!-- Images Profiles Cards-->
+                                <div class="row d-flex flex-wrap justify-content-around g-10  " style="gap:10px;" >
+                                    <div class="bg-light pt-2  shadow-sm border  col-5 col-sm-4 col-md-4 col-lg-4 text-center" >
+                                        <img class="card-img-top" src="assets/img/bg-callout.jpg" alt="Card image cap">
+                                        <div class="align-left text-captialize py-4  ">
+                                            <h5 class="fw-bolder">Employee Name</h5>
+                                            <p>Some decription about the employee</p>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                                  </svg>
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light pt-2  shadow-sm border  col-5 col-sm-4 col-md-4 col-lg-4 text-center" >
+                                        <img class="card-img-top" src="assets/img/bg-callout.jpg" alt="Card image cap">
+                                        <div class="align-left text-captialize py-4  ">
+                                            <h5 class="fw-bolder">Employee Name</h5>
+                                            <p>Some decription about the employee</p>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                                  </svg>
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light pt-2  shadow-sm border  col-5 col-sm-4 col-md-4 col-lg-4 text-center" >
+                                        <img class="card-img-top" src="assets/img/bg-callout.jpg" alt="Card image cap">
+                                        <div class="align-left text-captialize py-4  ">
+                                            <h5 class="fw-bolder">Employee Name</h5>
+                                            <p>Some decription about the employee</p>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                                  </svg>
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light pt-2  shadow-sm border  col-5 col-sm-4 col-md-4 col-lg-4 text-center" >
+                                        <img class="card-img-top" src="assets/img/bg-callout.jpg" alt="Card image cap">
+                                        <div class="align-left text-captialize py-4  ">
+                                            <h5 class="fw-bolder">Employee Name</h5>
+                                            <p>Some decription about the employee</p>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                                  </svg>
+                                                </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+         <!-- Strategy and Portfolion Section-->
+         <section class="" id="strategy_portfolio" style="background-color: #ededed; font-family:'Lato', serif;">
+            <div class="container px-5 py-5">
+                <div class="row gx-5 justify-content-between">
+                    <div class="col-xxl-12 row border-end border-5 border-secondary" style="">
+                        <div class="" data-aos="fade-down ">
+                            <h2 class="display-5 fw-bolder  text-sm-start" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >Strategy & Portfolio</span></h2>
+                            <p class=" fw-light mb-4">With those entrepreneurs, we invest in businesses which meet the guidelines of the Search Fund model including 
+                                                            having an established operating track record, high-quality revenue, 
+                                                            adequate financial performance and the ability to create value through revenue growth, operational efficiencies and management changes.</p>
+                            <p class="fw-light">We also want the business to have motivated employees who are highly valued by their customers, respect the environment, are respected by their 
+                                                    regulators and are welcomed by the communities in which they operate. </p>
+                            <p class="fw-light">We do not invest on a stand-alone basis in distressed situations or management turn-arounds. However, some of our portfolio companies 
+                                                could consider those investments as potential bolt-ons.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between col-xxl-12 my-4 row border-end border-5 border-secondary" style="">
+                        <div class="col-lg-3  py-4 ">
+                            <h3 class=" fw-bolder border-5 text-sm-start text-capitalize" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >Our investments</span></h3>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-sm-2  row gx-2">
+                            <div class="col-4 shadow border  ">
+                                <a href="https://memphiscapital.partners/" target="#" > 
+                                <img class="card-img-top " src="assets/img/MemphisCapitalLogoBW.png" alt="">
+                                </a>
+                            </div> 
+                            <div class="col-4 shadow border"><a href="https://www.vonzeocapital.com/" target="#"> <img class="card-img-top" src="assets/img/VONZEO_FINAL_LOGO.png" alt=""></a></div>
+                            <div class="col-4 shadow border"><a href="" target="#"> <img class="card-img-top" src="assets/img/bg-callout.jpg" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- News and Insights Section-->
+         <section class="" id="news_insight"  style="background-color: #ffffff; font-family:'Lato', serif;">
+            <div class="container px-5 pt-5">
+                <div class="row justify-content-between ">
+                    <div class="col-xxl-8 row border-start border-5 border-secondary" style="">
+                        <div class="col-md-12 col-lg-12" data-aos="fade-down ">
+                            <h2 class="display-5 fw-bolder  text-sm-start" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >News & Insights</span></h2>
+                            <p class=" fw-light mb-4">If you are interested in learning more, you are welcome to visit our blog where we share some of our news and insights. You can find it at XXXXXXX.</p>
+                            <p class="fw-light">We have also collected a number of links below which we thoughts are quite interesting. Let us know if there are any other resources that you know about 
+                                            which we should include (or that you wish existed and we would be happy to see whether we can make ourselves). </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Search Funds Asset Class Return Section-->
+         <section class=""  style="background-color: #ffffff; font-family:'Lato', serif;">
+            <div class="d-flex flex-wrap col-sm-12 col-md-12 col-xxl-12 justify-content-between container px-5 py-5 ">
+                <div class="col-12  col-md-5 col-xxl-5 pt-4 ">
+                    <div class=" col-lg-12">
+                        <h4 class="fw-bolder text-sm-start text-capitalize" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >Search fund asset class returns</span></h4>
+                        <div>
+                            <a class="d-flex justify-content-between py-4 border-bottom border-2 border-secondary" style="color:black; text-decoration:none;" onMouseOver="this.style.background='#ffffff', this.style.color='#9AB973'"
+                                onMouseOut="this.style.background='#ffffff', this.style.color='#000000'" style="background-color: #ffffff; text-decoration:none;" href="https://www.gsb.stanford.edu/gsb-box/route-download/618926">
+                                <h4>2022 Stanford Study</h4>
+                                <h4 class="fw-bolder"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9AB973" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></h4>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="d-flex justify-content-between py-4 border-bottom border-2 border-secondary" style="color:black; text-decoration:none;" onMouseOver="this.style.background='#ffffff', this.style.color='#9AB973'"
+                                onMouseOut="this.style.background='#ffffff', this.style.color='#000000'" style="background-color: #ffffff; text-decoration:none;" href="http://apply.iese.edu/695756457788850999283911/?_gl=1*1qp215f*_ga*NTQ1NzI1Nzg2LjE2NjU0MjM0MzE.*_ga_NGY5Z5ZR90*MTY2NjA3MzU5MC41LjEuMTY2NjA3MzYxMS4wLjAuMA..*_ga_JXBD129HST*MTY2NjA3MzU5MC4zLjAuMTY2NjA3MzU5MC4wLjAuMA..">
+                                <h4>2022 IESE Study</h4>
+                                <h4 class="fw-bolder"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9AB973" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-xxl-5 pt-4 ">
+                    <div class="col-lg-12">
+                        <h4 class="fw-bolder text-sm-start text-capitalize" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >Search fund primer</span></h4>
+                        <div>
+                            <a class="d-flex justify-content-between py-4 border-bottom border-2 border-secondary" style="color:black; text-decoration:none;" onMouseOver="this.style.background='#ffffff', this.style.color='#9AB973'"
+                                onMouseOut="this.style.background='#ffffff', this.style.color='#000000'" style="background-color: #ffffff; text-decoration:none;" href="https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds/primer ">
+                                <h4>Stanford Search Fund Primer</h4>
+                                <h4 class="fw-bolder"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9AB973" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+         <!-- Podcast  Section-->
+         <section class="bg-light py-5" id="podcast" style="font-family:'Lato', serif;">
+            <div class="container px-5">
+                <div class="row  gx-5 ">
+                    <!-- Podcast us and Profile Text -->
+                    <div class="text-sm-start " >
+                        <h2 class="display-5 fw-bolder color-secondary" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline"  >Podcast</span></h2>
+                    </div>
+                    <div class="col-lg-12 flex-wrap d-flex gap-1 justify-content-between" data-aos="fade-down">
+                        <div class="" style="">
+                            <div class="card" style="width: 20rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title fw-bolder">Think Like an Owner <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                                    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                                  </svg></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="https://podcasts.apple.com/us/podcast/think-like-an-owner/id1445929750" class="btn btn-dark" style="border-radius:40px; border-color:#9AB973; color:#ffff;">Play</a>
+                                </div>
+                                
+                              </div>
+                        </div>
+                        <div class="" style="">
+                            <div class="card" style="width: 20rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title fw-bolder">Entrepreneurship Through Acquisition <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                                    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                                  </svg></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="https://podcasts.apple.com/us/podcast/entrepreneurship-through-acquisition/id1149510247" class="btn btn-dark" style="border-radius:40px; border-color:#9AB973; color:#ffff;">Play</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="" style="">
+                            <div class="card" style="width: 20rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title fw-bolder">Entrepreneurship Through Acquisition <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                                    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                                  </svg></h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="https://podcasts.apple.com/us/podcast/entrepreneurship-through-acquisition/id1149510247" class="btn btn-dark" style="border-radius:40px; border-color:#9AB973; color:#ffff;">Play</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <!--Podcast section images -->
+                   
+        
+                </div>
+            </div>
+        </section>
+         <!-- Contact Us Section-->
         <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
+        <footer class="footer text-center bg-dark py-5" id="contact_us">
+                <div class="container px-5  text-white">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder" style="font-family:'Crimson Text', serif;"><span class="text-gradient d-inline" >Contact Us</span></h2>
+                                <p class="lead fw-light mb-4">For more information or to speak with one of our team members, please contact us at:</p>
+                                <div class="d-flex justify-content-center fs-5 gap-4 text-white" style="font-family:'Lato', serif;">
+                                    <a  style="color:#ffff; text-decoration:none;" href = "mailto: info@munxot.com">Email: info@munxot.com</i></a><br>
+                                    <a style="color:#ffff; text-decoration:none;" href="tel:123-456-7890">123-456-7890</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
